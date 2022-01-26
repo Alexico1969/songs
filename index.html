@@ -7,6 +7,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Songs</title>
+    <script src="app.js" defer></script>
+    <script src="https://api.countapi.xyz/hit/alexsongs.netlify.com/visits?callback=liveViews" async></script>
 </head>
 <body>
     <h1 class="jumbotron text-center">Alex' choice for February 2022</h1>
@@ -20,16 +22,11 @@
         
     
     </div>
-    <div class="text-right">   
-    <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=3a64e4d84c0885b4bc3f70d39f5cd3884d30f73d'></script>
-    
-    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/914315/t/0"></script>
+
+    <span id="visits"></span>
+
     <script>
-        frame.addEventListener("load", ev => {
-            const new_style_element = document.createElement("style");
-            new_style_element.textContent = ".my-class { border-radius: 15px; text-align:right}"
-            ev.target.contentDocument.head.appendChild(new_style_element);
-        });
+       
     
     </script>
 </body>
