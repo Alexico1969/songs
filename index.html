@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <title>Aja</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Songs</title>
 </head>
 <body>
+    <h1 class="jumbotron text-center">Alex' choice for February 2022</h1>
     <div class="container">
-
-
+        
+        <div class="clip"><iframe src="https://www.youtube.com/embed/dyXvqHI7tAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="clip"><iframe src="https://www.youtube.com/embed/dUCXZV96l9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="clip"><iframe src="https://www.youtube.com/embed/SsAFen9b2Qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="clip"><iframe src="https://www.youtube.com/embed/SYN9jKcgJYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="clip"><iframe src="https://www.youtube.com/embed/crblDrrcunQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        
+    
     </div>
     <script>
-
+        frame.addEventListener("load", ev => {
+            const new_style_element = document.createElement("style");
+            new_style_element.textContent = ".my-class { border-radius: 15px; }"
+            ev.target.contentDocument.head.appendChild(new_style_element);
+        });
         
     </script>
 </body>
